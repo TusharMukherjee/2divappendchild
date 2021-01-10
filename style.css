@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem black solid;
+    height: 45rem;
+}
+
+
+
+
+
+
+
+
+
+.inbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 25rem;
+    margin: 0rem 5rem 0rem 0rem;
+    border: 0.2rem black solid;
+}
+.inp{
+    height: 2rem;
+}
+#tprice{
+    margin: 0.5rem 0rem 0rem 0rem;
+}
+#paid{
+    margin: 0.5rem 0rem 1rem 0rem;
+}
+#mutton{
+  width: 6rem;  
+}
+
+
+
+
+
+
+
+.noteBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 32rem;
+    width: 28rem;
+    border: 0.2rem black solid;
+    margin: 0rem 0rem 0rem 10rem;
+}
+.noteBlock div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0.1rem green solid;
+    font-size: 1.5rem;
+    margin: 1rem;
+    height: 3rem;
+    width: 23rem;
+    text-align: center;
+}
