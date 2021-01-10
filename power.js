@@ -8,6 +8,7 @@ var money = [2000, 500, 200, 100, 20, 10, 5, 1];
 
 var a = 0;
 
+// function to clear divs inside the noteBook div created by the function hello.
  function clearous(){
     noteBlock.innerHTML = "";
  }
@@ -15,7 +16,7 @@ var a = 0;
 
 
 
-
+// function to create div at a time on a first click as a parent div.
 var clicks = 0;
   function hello() {
       clicks += 1;
@@ -42,7 +43,7 @@ var clicks = 0;
 
   
 
-
+//function to check errors an to append errors to noteBook div.
 function errors(total,paid){
   // console.log(tamt);
    var errmsg =document.createElement('div');
@@ -64,6 +65,10 @@ function errors(total,paid){
         }
 }
 
+
+
+
+// function to give calculations inside (append it to) the noteBook div.
 function process(total, paid){
     clearous();
     var leftAmt = paid - total;
